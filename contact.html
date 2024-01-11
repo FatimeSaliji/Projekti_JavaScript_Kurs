@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurse për fëmijë "Ajka"</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+
+   <nav  class=" navbar main-nav  navbar-expand-lg fixed-top bg-white shadow-sm py-md-3 py-2 ">
+            <div class="container ">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/img/logo.png" width="250px" height="40px">
+              </a>
+
+              <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="main_navbar">
+                <div class="offcanvas-header ms-auto">
+                    <button type="button" class="btn-close btn-x fs-3 ms-auto text-dark bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="icon-x"></i>
+                    </button>
+                </div>
+                
+                <div class="offcanvas-body pt-0 w-100 ">
+                     
+                   <ul class=" nav-underline navbar-nav  nav-underline  me-lg-auto mx-n2">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="index.html">Ballina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Rreth Nesh</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="course.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Kurset
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="nav-link" href="course.html">Micro:bit</a></li>
+                              <li><a class="nav-link" href="course.html"> HTML dhe CSS</a></li>
+                              <li><a class="nav-link" href="course.html">Microsoft Office</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                    <a href="contact.html"> <button type="button"  class="btn btn-light "> Regjistrohu tani!</button></a>
+                </div>
+            </div>
+         
+
+              <button class="reset-btn navbar-toggler d-lg-none d-flex align-items-center justify-content-center text-dark fs-4 h-10 w-10 ps-3 order-last" type="button" data-bs-toggle="offcanvas" data-bs-target="#main_navbar" aria-controls="main_navbar" aria-label="">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+         
+            </div>
+        </nav>
+
+        <section id="contact" class="contact">
+            <div class="container">
+              
+              <h1 class="text-primary-emphasis px-5 fw-bold">Kontakto dhe Regjistrohu</h1>
+              
+                <div class="p-5">
+                  <div class="row">
+                    <div class="col-lg-8 col-md-12 p-5 bg-white rounded-3">
+                      <div class="d-flex mb-3 flex-column">
+                        <h1 class="h5 my-4">Regjistrohu në Programming Course "Ajka"</h1>
+                        <div class="d-flex flex-wrap">
+                          <div class="
+                                  d-flex
+                                  flex-wrap
+                                  justify-content-center
+                                  align-items-center
+                                  me-4
+                                ">
+                            <input type="checkbox" name="webdev" class="form-check-input m-0 me-3" id="webdev" />
+                            <label for="webdev"> Micro:bit</label>
+                          </div>
+                          <div class="
+                                  d-flex
+                                  flex-wrap
+                                  justify-content-center
+                                  align-items-center
+                                  me-4
+                                ">
+                            <input type="checkbox" name="webdes" class="form-check-input m-0 me-3" id="webdes" />
+                            <label for="webdes"> HTML dhe CSS</label>
+                          </div>
+                          <div class="
+                                  d-flex
+                                  flex-wrap
+                                  justify-content-center
+                                  align-items-center
+                                  me-4
+                                ">
+                            <input type="checkbox" name="logodes" class="form-check-input m-0 me-3" id="logodes" />
+                            <label for="logodes"> Microsoft Office</label>
+                          </div>
+                          
+                        </div></br>
+
+                     
+
+
+                    
+                     <form action="" method="POST" id="form" class="needs-validation row mb-3" novalidate>
+                      
+              
+                        <div class="flex mb-6 space-x-4">
+                          <div class="p-3">
+                           
+                            <input type="text" name="name" id="first_name" placeholder="Emri" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                              Shkruaj emrin.
+                            </div>
+                          </div>
+                          <div class="flex mb-6 space-x-4 p-3">
+                          
+                            <input type="text" name="last_name" id="lname" placeholder="Mbiemri" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                              Shkruaj mbiemrin.
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="flex mb-6 space-x-4 p-3">
+                          <div class="p-3">
+                          
+                            <input type="email" name="email" id="email" placeholder="you@company.com" required class="   placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                          
+                            <div class="invalid-feedback text-red-400 text-sm mt-1">
+                              Shkruaj email adresën.
+                            </div>
+                          </div>
+              
+                          <div class="flex mb-6 space-x-4 p-3">
+                          
+                            <input type="text" name="phone" id="phone" placeholder="+389 70 123-456" required class=" placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+              
+                            <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                              Shkruaj numrin e telefonit.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-6 p-3">
+                        
+              
+                          <textarea  name="message" id="message" placeholder="Komenti juaj" class="" required></textarea>
+                          <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                            Shkruaj mesazhin.
+                          </div>
+                        </div>
+                        <div class="mb-6">
+                          <button type="submit" class="px-4 py-3 btn btn-light focus:bg-indigo-600 focus:outline-none">
+                            Dërgo
+                          </button>
+                        </div>
+                        <p class="text-base text-center text-gray-400" id="result"></p>
+                      </form>
+                    </div>
+                  </div>
+                  
+                    <div class="col-lg-4 col-md-12 text-white aside px-4 py-5">
+                      <div class="mb-5">
+                        <h1 class="h3">Na kontaktoni</h1>
+                        <p class="opacity-50">
+                          <small>
+                            Plotësoni formën e regjistrimit dhe ne do t'ju kontaktojmë brenda 24 orëve
+                          </small>
+                        </p>
+                      </div>
+                      <div class="d-flex flex-column px-0">
+                        <ul class="m-0 p-0">
+                          <li class="d-flex justify-content-start align-items-center mb-4">
+                            <span class="opacity-50 d-flex align-items-center me-3 fs-3">
+                              <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <span>070/000-000</span>
+                          </li>
+                          <li class="d-flex align-items-center  mb-4">
+                            <span class="opacity-50 d-flex align-items-center me-3 fs-3">
+                              <i class="fa-regular fa-envelope"></i>
+                            </span>
+                            <span>course_ajka@info.com</span>
+                          </li>
+                          <li class="d-flex justify-content-start align-items-center mb-4">
+                            <span class="opacity-50 d-flex align-items-center me-3 fs-3">
+                              <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                            <span>Kumanovo,Macedonia
+                            </span>
+                          </li>
+                          <li class="d-flex justify-content-center align-items-center ">
+                            <span class=" d-flex align-items-center me-3 fs-2">
+                              <img src="assets/img/contact1.gif" width="250px" height="200px">
+                            </span>
+                            
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  
+                
+              </div>
+          
+          
+              </section>
+          
+              <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+              
+<script src="assets/js/validation_form.js">
+  
+  
+
+        
+</script>
+
+
+              
+
+        <footer class="pt-5">
+  
+            <div class="container">
+             
+              <div class="row ">
+                
+                  <div class="col ">
+                      <img  src="assets/img/logo.png " width="300px" height="200px" class="img-fluid" alt="">
+                  </div>
+                  
+                 
+                  <div class="col">
+                    
+                      <h4 class="text-primary-emphasis ms-3">Na ndiqni:</h4>
+                      <ul class="d-flex " style="list-style-type: none;">
+                          <li><a class="icon-link icon-link-hover" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-3 text-primary-emphasis "></i></a>&nbsp;&nbsp;&nbsp;</li>
+                          <li><a class="icon-link icon-link-hover" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram fs-3  text-primary-emphasis"></i></a></li>
+                          
+                      </ul>
+                  </div>
+                
+                <div class="col">
+                  
+                    <h4 class="text-primary-emphasis ms-3">Navigacion</h4>
+                    <ul class=" " style="list-style-type: none;">
+                      <li class="nav-item "><a class="nav-link " href="#main">Ballina</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Rreth Nesh</a> </li>
+                    <li class="nav-item dropdown"><a class="nav-link " href="#course">Kurset </a></li>
+                      <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a> </li>
+                         </ul>
+                
+              </div>
+              
+            </div>
+            </div>
+              <div class="copyright">
+                
+              <div class="row  ">
+                  <p class="mt-3 text-primary-emphasis text-center fw-semibold ">Copyright © 2023 Programming Course "Ajka" - Krijuar dhe dizajnuar nga <b>Fatime Saliji</b></p>
+              </div>
+            
+          </div>
+          
+          
+          </footer>
+          
+          <script src="assets/js/bootstrap.bundle.min.js"></script>
+          
+          
+          </body>
+          </html>
