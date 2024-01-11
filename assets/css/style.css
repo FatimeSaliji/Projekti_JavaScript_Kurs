@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "Circular Std", Sans-serif;
+  src: url("../fonts/circular-std-medium-500.ttf");
+}
+h1,
+h2,
+h3,p {
+  font-family: "Circular Std", Sans-serif !important;
+  
+}
+
+a{
+  
+    font-family: "Circular Std", Sans-serif; 
+}
+.logo{
+    margin-right: 40px;
+}
+.nav-link{
+    color: #906B7F;
+    font-size: 20px;
+    
+}
+
+.border{
+    background: #886978;
+      
+    transition: scale 4s;
+      }
+      
+      .border:hover {
+       
+        scale: 1.5;
+      }
+
+
+.btn-light{
+    background-color: #906B7F;
+    opacity: 2px;
+    color: white;
+}
+.btn-light:hover{
+    background-color:transparent;
+    color: #906B7F;
+}
+
+main.home {
+    background-color: #c9b5bf;
+}
+main{
+    padding: 110px 0px;
+}
+
+
+section{
+    padding: 80px 0px;
+}
+
+
+h2.text-success-emphasis{
+    color: #62525a !important;
+}
+
+h2.text-success-emphasis:hover{
+    font-weight: bold;
+    color: purple !important;
+}
+
+section.about {
+    background-color: #d8cdd3;
+}
+
+section.course, footer{
+    background-color: #c9b5bf; 
+}
+
+section.contact {
+    background-color: #d8cdd3;
+}
+.copyright{
+  background-color: #d8cdd3;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: none;
+  border-bottom: 2px solid rgb(128, 126, 126);
+  background: transparent;
+  outline: none;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 1rem 0.4rem;
+}
+.aside {
+  background-image: linear-gradient(
+    to left bottom,
+    #5b424e,
+    #795868,
+    #5c4550,
+    #74636c,
+    #897881
+  );
+ animation: animateClr 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
+  background-size: 400%;
+}
+
+@keyframes animateClr {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
+.accordion-button{
+  background-color: #c9b5bf;
+  
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #b797a8;
+  
+}
+
+
+
+
+
+
